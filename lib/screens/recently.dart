@@ -2,13 +2,27 @@ import 'package:flutter/material.dart';
 
 import 'dart:math' as math;
 
-import 'progress_indicator.dart';
+import '../components/progress_indicator.dart';
 
 class Recently extends StatelessWidget {
-  final List title = [
-    "Unit 5 - Project Managing",
-    "Unit 8 - Figma Design",
-    "Unit 3 - Flutter tutorials",
+
+  final List ssc = [
+          "Accounting",
+          "Physics",
+          "General Math",
+          "Higher Math",
+          "Chemistry",
+          "English"
+  ];
+
+  final List hsc = [
+    "ICT",
+    "Physics 1st Paper",
+    "Physics 2nd Paper",
+    "Bangla First Paper",
+    "English",
+    "Biology",
+    "Economics"
   ];
 
   final List colors = [Colors.blue, Colors.black, Colors.green];
@@ -17,6 +31,7 @@ class Recently extends StatelessWidget {
   Widget build(BuildContext context) {
     var rng = new math.Random.secure();
     return ListTile(
+
       leading: Container(
         decoration: BoxDecoration(
             image: DecorationImage(
@@ -40,7 +55,7 @@ class Recently extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
-            title[rng.nextInt(3)],
+            hsc[rng.nextInt(3)],
             style: TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w700,

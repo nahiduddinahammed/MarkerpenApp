@@ -1,4 +1,5 @@
-import 'package:edu_app/Resources.dart';
+import 'package:edu_app/screens/Resources.dart';
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -33,9 +34,9 @@ class MyHomePage extends StatelessWidget {
           padding: const EdgeInsets.only(right: 16.0, bottom: 32),
           child: Container(
             child: Text(
-              "Get Startted",
+              "Get Started",
               style: TextStyle(
-                  color: Color(0xffE1F5FF),
+                  color: Colors.black,
                   fontSize: 18,
                   fontWeight: FontWeight.bold),
             ),
@@ -47,7 +48,7 @@ class MyHomePage extends StatelessWidget {
         width: double.infinity,
         decoration: BoxDecoration(
           image: DecorationImage(
-              image: AssetImage("assets/splash.jpg"), fit: BoxFit.fill),
+              image: AssetImage("assets/page.jpg"), fit: BoxFit.fill),
         ),
         child: Padding(
           padding: const EdgeInsets.all(16.0),
@@ -56,7 +57,7 @@ class MyHomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Text(
-                "World's Best",
+                "",
                 textAlign: TextAlign.left,
                 style: TextStyle(
                     color: Color(0xffE1F5FF),
@@ -68,7 +69,7 @@ class MyHomePage extends StatelessWidget {
                 height: 16,
               ),
               Text(
-                "Education  Resources",
+                "",
                 textAlign: TextAlign.left,
                 style: TextStyle(
                     color: Colors.white,
@@ -80,7 +81,7 @@ class MyHomePage extends StatelessWidget {
                 height: 16,
               ),
               Text(
-                "Anytime, Anywhere, Easy to Learn",
+                "",
                 textAlign: TextAlign.left,
                 style: TextStyle(
                     color: Color(0xffE1F5FF),

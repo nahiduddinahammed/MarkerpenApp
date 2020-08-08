@@ -4,7 +4,7 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -22,6 +22,15 @@ flutter:
   assets:
     - assets/splash.jpg
     - assets/1.jpg
+    - assets/ict.png
+    - assets/page.jpg
+    - assets/elearning.jpg
+    - assets/physics.png
+    - assets/biology.png
+    - assets/bangla.png
+    - assets/english.png
+    - assets/economic.png
+    - listphysicsImage.jpg
 
   fonts:
     - family: Nunito
